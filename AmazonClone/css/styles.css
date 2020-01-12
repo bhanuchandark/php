@@ -1,0 +1,101 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+#siteContainer {
+    padding: 0px;
+}
+.navbar { 
+    background-color: #2d2c3b;
+    color: aliceblue;
+    height: 6vh; 
+}
+
+#menu {
+    background-color: whitesmoke;
+}
+#menu :hover {
+    background-color: rgb(217, 221, 223);
+}
+#img {
+    height: 50vh;
+    width: 100%;
+}
+.carousel-inner {
+    height: 50vh;
+}
+#text {
+    color:whitesmoke;
+    background-color:#2d2c3b;
+}
+
+/* #footer {
+    height: 40vh;
+    width: 75%;
+    padding-left: 350px;
+} */
+
+.mysection1 {
+    margin: 1em auto;
+    width: 98%;
+    border-radius: 8px;
+    background-image: url("../images/background-img1.webp");
+    height: 100vh;
+}
+header {
+    background-color:#2d2c3b;
+    color: aliceblue;
+}
+.footer {
+    text-align: center;
+    color: rgb(39, 47, 49);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+.mysection {
+    margin: 1em auto;
+     width: 98%;
+}
+.flexbox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.flexbox  > div {
+    box-shadow: 0 0 10px #cacaca;
+    width: 17em;
+    margin: 2em;
+}
+.mycardimg {
+    height: 14em;
+    width: 16.3em;
+}
+.mycardtitle {
+    height: 2em;
+}
+.mybtn {
+    width: 49%;
+}
+.center {
+    text-align: center;
+}
+.card {
+    background-color: blanchedalmond;
+}
+
+#logincontainer {
+    background-color: beige;
+    height: 75vh;
+    margin-top: 10vh;
+}
+#exampleInputEmail1 {
+    width: 50vh;
+}
+#exampleInputPassword1 {
+    width: 50vh;
+}
+.a {
+    margin-left: 40vh;
+    margin-top: 10vh;
+}
